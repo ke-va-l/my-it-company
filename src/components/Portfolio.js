@@ -100,7 +100,40 @@ const Portfolio = () => {
       ],
       image: '📄',
       status: 'Completed'
+    },
+    {
+      id: 7,
+      title: 'E-Commerce Application',
+      category: 'Android',
+      description: 'A full e-commerce application with product listings, cart features, payment options, search functionality, and Firebase backend.',
+      technologies: ['Flutter', 'Firebase', 'Provider', ],
+      features: [
+        'Product listing',
+        'Cart & checkout',
+        'Payment options',
+        'Search & filter'
+      ],
+      image: '🛒',
+      status: 'Completed'
+    },
+    {
+      id: 8,
+      title: 'Smart Hotel Booking System',
+      category: 'ai',
+      description: 'A complete hotel booking and room management system with authentication, role-based access, secure token system, and admin dashboards.',
+      technologies: ["Next.js 13", "React 18", "Redux Toolkit", "Node.js", "Winston"],
+      features: [
+        "User registration/login with email verification",
+      "JWT access & refresh token system",
+      "Password reset with secure tokens",
+      "Role-based access (Admin/User)",
+      "Account status management",
+      "Booking & room management"
+      ],
+      image: '🏨',
+      status: 'Completed'
     }
+    
   ];
 
   const filters = [
